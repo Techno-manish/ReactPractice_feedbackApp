@@ -1,0 +1,41 @@
+/* Write your CSS code here. */
+.bgContainer {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: fit-content;
+  width: 60vw;
+  background-color: #fff;
+  padding: 10vh;
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.list {
+  list-style-type: none;
+}
+.image {
+  height: 80px;
+  cursor: pointer;
+}
